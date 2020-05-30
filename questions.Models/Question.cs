@@ -9,6 +9,7 @@ namespace questions.Models
     public int Number { get; set; }
     public int SubjectId { get; set; }
     public int ExamId { get; set; }
+    public int SchoolId { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
     public bool IsDeleted { get; set; }
